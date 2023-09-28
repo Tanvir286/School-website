@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <title>ACP HIGH SCHOOL</title> 
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+   <link rel="stylesheet" href="css/all.min.css">
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" ></script>
+   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+   <script src="js/main.js"></script>
+</head>
+<body>
+     
+    
+     <!-- =============================
+         Responsive nav part Area 
+      ===============================-->
+      <nav class="py-4 bg-primary lg:sticky top-0 z-10 block lg:hidden">
+         <div class="max-w-container mx-auto">
+             <div class="flex justify-between">
+                   <!-- box one -->
+                  <div>
+                     <h1 class="text-white text-2xl ml-5">Menu</h1>
+                  </div>
+                  <!-- box one -->
+                   <!-- flex items  -->
+                  <div>
+                     <ul class=" text-white flex gap-x-100 gap-y-5 py-5 lg:py-0 font-dm text-xl lg:flex-row flex-col bg-primary  lg:bg-transparent nav-links lg:static absolute w-full lg:w-auto lg:bg-transparent left-[-100%] top-[8%] cursor-pointer duration-500 z-40 ">
+                        <!-- single item -->
+                       <div><a href="index.html" class="lg:ml-4  ml-7">হোম</a></div>
+                        <!-- single item -->
+                       <div class="relative group">
+                        <p class="lg:ml-0  ml-7">পরিচিতি</p>
+                        <!-- sub menu catgory -->
+                        <div class="absolute w-56 lg:left lg:top-11 left-36 sm:left-40 lg:left-0  sm:top-0 bg-primary z-10 opacity-0 group-hover:opacity-100  invisible  divide-y divide-gray-300 divide-dashed group-hover:visible duration-300">
+                          <!-- sub menu catgory -->
+                            <a href="./schoolhistory.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                              <p class=" ml-6 text-lg">প্রতিষ্ঠানের পরিচিতি</p>
+                            </a>
+                         <!-- sub menu catgory -->
+                         <!-- sub menu catgory -->
+                         <a href="./member.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                           <p class=" ml-6 text-lg">কমিটির সদস্য</p>
+                         </a>
+                         <!-- sub menu catgory -->
+                         
+                         <!-- sub menu catgory -->
+                         <!-- sub menu catgory -->
+                         <a href="" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                           <p class=" ml-6 text-lg">আমাদের কথা</p>
+                         </a>
+                         <!-- sub menu catgory -->
+                        </div>
+                       </div>
+                        <!-- single item -->
+                        <div class="relative group">
+                           <p class="lg:ml-4  ml-7">শিক্ষকমন্ডলী</p>
+                           <!-- sub menu catgory -->
+                           <div class="absolute w-56 lg:left lg:top-11 left-36 sm:left-40 lg:left-0 -top-3 sm:top-0 bg-primary z-10 opacity-0 group-hover:opacity-100  invisible  divide-y divide-gray-300 divide-dashed group-hover:visible duration-300">
+                             <!-- sub menu catgory -->
+                               <a href="./teachers.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg">সকল শিক্ষকমন্ডলী</a>
+                            <!-- sub menu catgory -->
+                            <!-- sub menu catgory -->
+                            <a href="./staff.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg">স্টাফবৃন্দ</a>
+                            <!-- sub menu catgory -->
+                            <!-- sub menu catgory -->
+                            <a href="" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                              <p class=" ml-6 text-lg">খন্ডকালীন শিক্ষকমন্ডলী</p>
+                            </a>
+                            <!-- sub menu catgory -->
+                            <!-- sub menu catgory -->
+                            <a href="" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                              <p class=" ml-6 text-lg">অবসরকৃত শিক্ষকমন্ডলী</p>
+                            </a>
+                            <!-- sub menu catgory -->
+                           </div>
+                        </div>
+                        <!-- single item -->                 
+                        <div class="relative group">
+                           <a href="" class="lg:ml-4  ml-7">গ্যালারি</a>
+                           <!-- sub menu catgory -->
+                           <div class="absolute w-56 sm:left lg:top-11 left-32 sm:left-40 lg:left-0 -top-3 sm:top-0 bg-primary z-10 opacity-0 group-hover:opacity-100  invisible  divide-y divide-gray-300 divide-dashed group-hover:visible duration-300">
+                             <!-- sub menu catgory -->
+                             <a href="./photoGallery.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg">ফটো গ্যালারী</a>
+                            <!-- sub menu catgory -->
+                            <!-- sub menu catgory -->
+                            <a href="./videoGallery.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg">ভিডিও গ্যালারি</a>
+                            <!-- sub menu catgory -->
+                            
+                           </div>
+                        </div>
+                        <!-- single item -->
+                       <div><a href="./noticeborad.html"class="lg:ml-4  ml-7">নোটিশ</a></div>
+                        <!-- single item -->
+                        <div class="relative group">
+                           <a href="" class="lg:ml-4  ml-7">ফলাফল</a>
+                           <!-- sub menu catgory -->
+                           <div class="absolute w-56 sm:left lg:top-11 left-32 sm:left-40 lg:left-0 -top-3 sm:top-0 shadow-2xl bg-primary z-10 opacity-0 group-hover:opacity-100  invisible  divide-y divide-gray-300 divide-dashed group-hover:visible duration-300">
+                             <!-- sub menu catgory -->
+                           <a href="http://www.educationboardresults.gov.bd/" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">এসএসসি  ফলাফল</a>
+                            <!-- sub menu catgory -->
+                            <!-- sub menu catgory -->
+                            <a href="http://www.educationboardresults.gov.bd/" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">জেএসসি ফলাফল</a>
+                            <!-- sub menu catgory -->
+                            <a href="./pdf/result1.pdf" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">নবম শ্রেণী</a>
+                            <!-- sub menu catgory -->
+                            <a href="./pdf/result1.pdf" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">সপ্তম শ্রেণী</a>
+                            <!-- sub menu catgory -->
+                            <a href="./pdf/result1.pdf" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">ষষ্ঠ শ্রেণী</a>
+                            <!-- sub menu catgory -->              
+                           </div>
+                        </div>
+                        <!-- single item -->
+                        <div class="relative group">
+                           <a href="" class="lg:ml-4  ml-7">এডমিশন</a>
+                           <!-- sub menu catgory -->
+                           <div class="absolute w-56 sm:left lg:top-11 left-32 sm:left-40 sm:left-0 -top-3 sm:top-0 shadow-2xl bg-primary z-10 opacity-0 group-hover:opacity-100  invisible  divide-y divide-gray-300 divide-dashed group-hover:visible duration-300">
+                             <!-- sub menu catgory -->
+                            <a href="./pdf/studentform.pdf" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">অফলাইন ফরম</a>
+                            <!-- sub menu catgory -->
+                            <!-- sub menu catgory -->
+                            <a href="" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                              <p class=" ml-6 text-lg">অনলাইন  ফরম</p>
+                            </a>
+                            <!-- sub menu catgory -->
+                            
+                           </div>
+                        </div>
+                        <!-- single item -->
+                       <div><a href="./contact.html"class="lg:ml-4  ml-7">যোগাযোগ</a></div>
+                        <!-- single item -->
+                    </ul>
+                  </div>
+                  <!-- flex items  -->
+                  <!-- extra part item -->
+                  <div class="flex items-center text-white">
+                        <ion-icon onclick="onToggleMenu(this)" name="menu" class=" text-4xl cursor-pointer lg:hidden inline-block ml-5 lg:ml-0 mr-6  lg:mr-0"></ion-icon>
+                  </div>
+                  <!-- extra part item -->
+              </div>    
+         </div>
+         </nav>   
+ 
+         <script>
+            const navLinks = document.querySelector('.nav-links')
+         function onToggleMenu(e){
+             e.name = e.name === 'menu' ? 'close' : 'menu'
+             navLinks.classList.toggle('left-[0.1%]')
+         }
+         </script>
+      <!-- =============================
+         Responsive nav part Area 
+      ===============================-->
+      <!-- =============================
+         Headear Area Start sticky top-0
+      ===============================-->
+      <header class="py-2 bg-white ">                
+       <div class="max-w-container mx-auto">
+          <div class="lg:flex items-center">
+             <!-- single item -->
+             <div class="lg:w-[10%] w-full ">
+              <a href="index.html"><img src="./images/logo.png" alt="" class="w-36 h-36 mx-auto lg:mx-0"></a>                  
+             </div>
+             <!-- single item -->
+             <div class="lg:w-[70%]  flex flex-col justify-center">
+                  <h2 class="font-mon text-4xl sm:text-5xl font-bold text-center text-blue-600">Ashekpur High School & Collage</h2>
+                  <h2 class="font-tiro text-4xl  sm:text-5xl font-bold mt-3 text-center  text-blue-600">আশেকপুর উচ্চ বিদ্যালয় এন্ড কলেজ</h2>
+             </div>
+             <!-- single item -->
+             <div class="lg:w-[20%] mx-auto sm:mx-0 hidden lg:block">
+                   <img src="./images/mujib.png" alt="" class="w-52 h-36 object-contain">
+             </div>
+             <!-- single item -->
+        </div>
+       </div>
+     </header>
+      <!-- =============================
+                Headet Area End
+      ===============================-->
+      <nav class="py-4 bg-primary sm:sticky top-0 z-10  hidden lg:block">
+       <div class="max-w-container mx-auto">
+           <div class="flex justify-center">
+               <ul class=" text-white flex justify-center gap-x-10 gap-y-5 py-5 sm:py-0 font-dm text-xl lg:flex-row flex-col bg-primary  lg:bg-transparent nav-links lg:static absolute w-full lg:w-auto g:bg-transparent left-[-100%] top-[55%] cursor-pointer duration-500 z-40 ">
+                   <!-- single item -->
+                  <div><a href="index.html" class="sm:ml-4  ml-7">হোম</a></div>
+                   <!-- single item -->
+                  <div class="relative group">
+                   <p class="  ml-7">পরিচিতি</p>
+                   <!-- sub menu catgory -->
+                   <div class="absolute  w-56 sm:left sm:top-11 left-32 sm:left-0 -top-5 sm:top-0 bg-primary z-10 opacity-0 group-hover:opacity-100  invisible  divide-y divide-gray-300 divide-dashed group-hover:visible duration-300">
+                     <!-- sub menu catgory -->
+                       <a href="./schoolhistory.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                         <p class=" ml-6 text-lg">প্রতিষ্ঠানের পরিচিতি</p>
+                       </a>
+                    <!-- sub menu catgory -->
+                    <!-- sub menu catgory -->
+                    <a href="./member.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                      <p class=" ml-6 text-lg">কমিটির সদস্য</p>
+                    </a>
+                    <!-- sub menu catgory -->
+                    
+                    <!-- sub menu catgory -->
+                    <!-- sub menu catgory -->
+                    <a href="" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                      <p class=" ml-6 text-lg">আমাদের কথা</p>
+                    </a>
+                    <!-- sub menu catgory -->
+                   </div>
+                  </div>
+                   <!-- single item -->
+                   <div class="relative group">
+                      <p class="sm:ml-4  ml-7">শিক্ষকমন্ডলী</p>
+                      <!-- sub menu catgory -->
+                      <div class="absolute w-56 sm:left sm:top-11 left-32 sm:left-0 -top-3 sm:top-0 bg-primary z-10 opacity-0 group-hover:opacity-100  invisible  divide-y divide-gray-300 divide-dashed group-hover:visible duration-300">
+                        <!-- sub menu catgory -->
+                          <a href="./teachers.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg">সকল শিক্ষকমন্ডলী</a>
+                       <!-- sub menu catgory -->
+                       <!-- sub menu catgory -->
+                       <a href="./staff.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg">স্টাফবৃন্দ</a>
+                       <!-- sub menu catgory -->
+                       <!-- sub menu catgory -->
+                       <a href="" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                         <p class=" ml-6 text-lg">খন্ডকালীন শিক্ষকমন্ডলী</p>
+                       </a>
+                       <!-- sub menu catgory -->
+                       <!-- sub menu catgory -->
+                       <a href="" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                         <p class=" ml-6 text-lg">অবসরকৃত শিক্ষকমন্ডলী</p>
+                       </a>
+                       <!-- sub menu catgory -->
+                      </div>
+                   </div>
+                   <!-- single item -->                 
+                   <div class="relative group">
+                      <a href="" class="sm:ml-4  ml-7">গ্যালারি</a>
+                      <!-- sub menu catgory -->
+                      <div class="absolute w-56 sm:left sm:top-11 left-32 sm:left-0 -top-3 sm:top-0 bg-primary z-10 opacity-0 group-hover:opacity-100  invisible  divide-y divide-gray-300 divide-dashed group-hover:visible duration-300">
+                        <!-- sub menu catgory -->
+                        <a href="./photoGallery.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg">ফটো গ্যালারী</a>
+                       <!-- sub menu catgory -->
+                       <!-- sub menu catgory -->
+                       <a href="./videoGallery.html" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg">ভিডিও গ্যালারি</a>
+                       <!-- sub menu catgory -->
+                       
+                      </div>
+                   </div>
+                   <!-- single item -->
+                  <div><a href="./noticeborad.html"class="sm:ml-4  ml-7">নোটিশ</a></div>
+                   <!-- single item -->
+                   <div class="relative group">
+                      <a href="" class="sm:ml-4  ml-7">ফলাফল</a>
+                      <!-- sub menu catgory -->
+                      <div class="absolute w-56 sm:left sm:top-11 left-32 sm:left-0 -top-3 sm:top-0 shadow-2xl bg-primary z-10 opacity-0 group-hover:opacity-100  invisible  divide-y divide-gray-300 divide-dashed group-hover:visible duration-300">
+                        <!-- sub menu catgory -->
+                      <a href="http://www.educationboardresults.gov.bd/" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">এসএসসি  ফলাফল</a>
+                       <!-- sub menu catgory -->
+                       <!-- sub menu catgory -->
+                       <a href="http://www.educationboardresults.gov.bd/" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">জেএসসি ফলাফল</a>
+                       <!-- sub menu catgory -->
+                       <a href="./pdf/result1.pdf" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">নবম শ্রেণী</a>
+                       <!-- sub menu catgory -->
+                       <a href="./pdf/result1.pdf" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">সপ্তম শ্রেণী</a>
+                       <!-- sub menu catgory -->
+                       <a href="./pdf/result1.pdf" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">ষষ্ঠ শ্রেণী</a>
+                       <!-- sub menu catgory -->              
+                      </div>
+                   </div>
+                   <!-- single item -->
+                   <div class="relative group">
+                      <a href="" class="sm:ml-4  ml-7">এডমিশন</a>
+                      <!-- sub menu catgory -->
+                      <div class="absolute w-56 sm:left sm:top-11 left-32 sm:left-0 -top-3 sm:top-0 shadow-2xl bg-primary z-10 opacity-0 group-hover:opacity-100  invisible  divide-y divide-gray-300 divide-dashed group-hover:visible duration-300">
+                        <!-- sub menu catgory -->
+                       <a href="./pdf/studentform.pdf" class="flex items-center hover:text-primary  py-3 hover:bg-white transition pl-6 w-full text-lg" target="_blank">অফলাইন ফরম</a>
+                       <!-- sub menu catgory -->
+                       <!-- sub menu catgory -->
+                       <a href="" class="flex items-center hover:text-primary  py-3 hover:bg-white transition">
+                         <p class=" ml-6 text-lg">অনলাইন  ফরম</p>
+                       </a>
+                       <!-- sub menu catgory -->
+                       
+                      </div>
+                   </div>
+                   <!-- single item -->
+                  <div><a href="./contact.html"class="sm:ml-4  ml-7">যোগাযোগ</a></div>
+                   <!-- single item -->
+               </ul>
+                    <!-- extra part item -->
+                    <div class="flex items-center text-white">
+                      <ion-icon onclick="onToggleMenu(this)" name="menu" class=" text-4xl cursor-pointer lg:hidden inline-block ml-5 lg:ml-0 mr-6  lg:mr-0"></ion-icon>
+                  </div>
+                    <!-- extra part item -->
+            </div>    
+       </div>
+      </nav>
+     <!-- =============================
+                Headear Area End
+      ===============================-->
+     <!-- =============================
+            All Teachers Area Start
+      ===============================-->
+    
+        <section class="bg-white py-8">
+             <div class="max-w-container mx-auto">
+                <!-- title item start -->
+                <div class="relative mb-14">
+                  <p class=" text-3xl text-center mt-7">শিক্ষকমন্ডলী</p>         
+                    <img src="./images/Line Indicator.png" alt="" class="absolute left-1/2 -translate-x-2/4 mt-2">              
+                 </div>
+                 <!-- title item start --> 
+                  <!-- teacher list -->
+                  <div class="">
+                    <div class="max-w-container mx-auto  mb-6 overflow-hidden">
+                       <div class="sm:flex flex-wrap mt-6 py-15 gap-y-5 gap-x-4 [&>*:nth-child(1)]:block [&>*:nth-child(2)]:block [&>*:nth-child(3)]:block [&>*:nth-child(4)]:block  [&>*:nth-child(5)]:block [&>*:nth-child(6)]:block [&>*:nth-child(7)]:block [&>*:nth-child(8)]:block px-3">
+                        <!-- single item -->                   
+                        <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+                             <div class=" bg-slate-400">
+                                <img src="./images/42.jpg" alt="" class="w-full h-96 object-cover mx-auto">
+                             </div>
+                             <div class="">
+                                <p class="text-center text-2xl py-2">আশরাফুল আলম</p>
+                                <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> প্রধান শিক্ষক</p>
+                                <div class="flex justify-center gap-x-6 py-3">  
+                                   <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                      <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                                   </div>                              
+                                   <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                      <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                                   </div>                              
+                                   <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                      <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                                   </div>                              
+                                   <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                      <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                                   </div>                                                 
+                                 </div>
+                             </div>
+                        </div>
+                        <!-- single item -->
+                        <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+                             <div class=" bg-slate-400">
+                                <img src="./images/44.jpg" alt="" class="w-full h-96 object-cover mx-auto">
+                             </div>
+                             <div class="">
+                                <p class="text-center text-2xl py-2">রেজাউল করিম</p>
+                                <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি প্রধান শিক্ষক</p>
+                                <div class="flex justify-center gap-x-6 py-3">  
+                                   <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                      <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                                   </div>                              
+                                   <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                      <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                                   </div>                              
+                                   <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                      <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                                   </div>                              
+                                   <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                      <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                                   </div>                                                 
+                                 </div>
+                             </div>
+                        </div>
+                        <!-- single item -->
+                        <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+                          <div class=" bg-slate-400">
+                             <img src="./images/45.jpg" alt="" class="w-full h-96 object-cover mx-auto">
+                          </div>
+                          <div class="">
+                             <p class="text-center text-2xl py-2">আকবর মাহমুদ</p>
+                             <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষক ( রসায়ন )</p>
+                             <div class="flex justify-center gap-x-6 py-3">  
+                                <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                   <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                                </div>                              
+                                <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                   <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                                </div>                              
+                                <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                   <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                                </div>                              
+                                <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                   <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                                </div>                                                 
+                              </div>
+                          </div>
+                        </div>
+                        <!-- single item -->
+                        <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+                       <div class=" bg-slate-400">
+                          <img src="./images/46.jpg" alt="" class="w-full h-96 object-cover mx-auto">
+                       </div>
+                       <div class="">
+                          <p class="text-center text-2xl py-2">তৈমুর আজাদ</p>
+                          <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষক ( বাংলা )</p>
+                          <div class="flex justify-center gap-x-6 py-3">  
+                             <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                             </div>                              
+                             <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                             </div>                              
+                             <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                             </div>                              
+                             <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                                <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                             </div>                                                 
+                           </div>
+                       </div>
+                        </div>
+                        <!-- single item -->
+                        <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+                    <div class=" bg-slate-400">
+                       <img src="./images/47.jpg" alt="" class="w-full h-96 object-cover mx-auto">
+                    </div>
+                    <div class="">
+                       <p class="text-center text-2xl py-2">মুশফিকুর রহিম</p>
+                       <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2">সহকারি শিক্ষক ( জীববিজ্ঞান )</p>
+                       <div class="flex justify-center gap-x-6 py-3">  
+                          <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                             <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                          </div>                              
+                          <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                             <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                          </div>                              
+                          <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                             <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                          </div>                              
+                          <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                             <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                          </div>                                                 
+                        </div>
+                    </div>
+                        </div>
+                        <!-- single item -->
+                        <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+                 <div class=" bg-slate-400">
+                    <img src="./images/49.jpg" alt="" class="w-full h-96 object-cover mx-auto">
+                 </div>
+                 <div class="">
+                    <p class="text-center text-2xl py-2">তাসনিম তাবাসসুম</p>
+                    <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা ( গণিত )</p>
+                    <div class="flex justify-center gap-x-6 py-3">  
+                       <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                          <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                       </div>                              
+                       <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                          <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                       </div>                              
+                       <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                          <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                       </div>                              
+                       <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                          <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                       </div>                                                 
+                     </div>
+                 </div>
+                        </div>
+                        <!-- single item -->
+                        <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+              <div class=" bg-slate-400">
+                 <img src="./images/48.jpg" alt="" class="w-full h-96 object-cover mx-auto">
+              </div>
+              <div class="">
+                 <p class="text-center text-2xl py-2">বাবুল আহমেদ</p>
+                 <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষক (ইংরেজি)</p>
+                 <div class="flex justify-center gap-x-6 py-3">  
+                    <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                       <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                    </div>                              
+                    <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                       <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                    </div>                              
+                    <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                       <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                    </div>                              
+                    <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                       <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                    </div>                                                 
+                  </div>
+              </div>
+                        </div>
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                        <!-- single item -->
+                       <div class="w-full max-w-480 mx-auto sm:mx-0 sm:w-[48%] lg:w-[23%]  shadow-xl  border-third border  hidden box3  mb-5">
+           <div class=" bg-slate-400">
+              <img src="./images/50.jpeg" alt="" class="w-full h-96 object-cover mx-auto">
+           </div>
+           <div class="">
+              <p class="text-center text-2xl py-2">তাহমিনা খাতুন</p>
+              <p class="text-center text-2xl border-b-2 border-third border-dashed pb-2"> সহকারি শিক্ষিকা (কম্পিউটার)</p>
+              <div class="flex justify-center gap-x-6 py-3">  
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><i class="fa-solid fa-phone-volume "></i></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl"><i class="fa-solid fa-envelope text-red-500 "></i></a></a>
+                 </div>                              
+                 <div class="w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl "><a href="" class=" text-xl "><i class="fa-brands fa-facebook text-[#3b5998] "></i></i></a></a>
+                 </div>                              
+                 <div class=" w-8 h-8 border-2 border-slate-400 rounded-full justify-center items-center text-center">
+                    <a href="" class=" text-xl"><a href="" class=" text-xl "><i class="fa-brands fa-linkedin text-[##0077b5] "></i></a></a>
+                 </div>                                                 
+               </div>
+           </div>
+                       </div>
+                        <!-- single item -->                
+                       </div>
+                        <!-- button -->
+                       <div class="text-center mt-8">
+                        <button href="#" id="loading" class="inline-block py-3 px-5 bg-red-500 cursor-p font-dm text-xl rounded-lg text-white">All Member</button>
+                       </div>
+                       <!-- button -->
+                       <!-- items -->
+                    </div>            
+                  </div> 
+                  <!-- teacher list -->
+             </div>
+        </section>
+    
+       
+         <!-- =============================
+               Footer Area Start  
+        ===============================-->
+        <section class="py-8 bg-[#07464c]">
+         <div class="max-w-container mx-auto ">
+              <div class="flex flex-wrap   pb-10 justify-between border-b border-white mx-5 pl-5 lg:mx-0">
+                 <!-- part item  -->
+                 <div class="w-full md:w-[48%] lg:w-[33%] max-w-350 mx-auto px-3.5  lg:mx-0 sm:px-0 sm:max-w-480 ">
+                     <img src="./images/logo.png" alt=""class="w-36 h-36 rounded-full  :mx-0">
+                     <p class="font-mon font-normal text-white text-3xl   my-5"> Ashekpur High School</p>
+                     <p class="font-dm font-normal text-white  text-xl   my-5"><span><i class="fa-solid fa-phone-volume mr-5"></i></span>019-23982877</p>
+                     <p class="font-dm font-normal text-white text-xl   my-5"><span><i class="fa-solid fa-tty mr-5"></i></span>+754487098</p>
+                     <p class="font-dm font-normal text-white text-xl   my-5"><span><i class="fa-solid fa-envelope mr-5"></i></span>acphighSchool@gmail.com</p>
+                     <p class="font-dm font-normal text-white text-xl  "><span><i class="fa-solid fa-location-pin mr-5"></i></span>Ranirhat,Sajahanpur,Bogura.</p>
+                     <div class="flex gap-x-5 my-5 ">
+                        <img src="./images/77.png" alt="">
+                        <img src="./images/78.png" alt="">
+                        <img src="./images/79.png" alt="">
+                        <img src="./images/80.png" alt="">
+                     </div>
+                 </div> 
+                 <!-- part item  -->
+                 <div class="w-full md:w-[48%] lg:w-[33%] mt-8 sm:mt-14 max-w-350 mx-auto px-3.5  lg:mx-0 sm:px-0 sm:max-w-480">
+                   <h1 class="font-cv font-bold text-white text-4xl ">Usefull Link</h1>
+                    <div>
+                        <p class="text-white text-xl mt-14 "> <span>  <i class="fa-solid fa-link mr-5"></i></span> <a href="http://www.educationboard.gov.bd/rajshahi/index.html" target="_blank" > Rajshai Education Borad</a> </p>
+                        <p class="text-white text-xl my-5 "> <span>  <i class="fa-solid fa-link mr-5"></i></span> <a href="https://banbeis.gov.bd/" target="_blank" > Banbeies</a> </p>
+                        <p class="text-white text-xl my-5 "> <span>  <i class="fa-solid fa-link mr-5"></i></span> <a href="http://eff.teletalk.com.bd/" target="_blank" > eSIF</a> </p>
+                        <p class="text-white text-xl my-5 "> <span>  <i class="fa-solid fa-link mr-5"></i></span> <a href="http://emis.gov.bd/SSO/Account/Login?ReturnUrl=%2FSSO" target="_blank" > MPO-login</a> </p>
+                        <p class="text-white text-xl my-5 "> <span>  <i class="fa-solid fa-link mr-5"></i></span> <a href="https://moedu.gov.bd/" target="_blank" > Ministry of Education</a> </p>
+                        <p class="text-white text-xl my-5 "> <span>  <i class="fa-solid fa-link mr-5"></i></span> <a href="about:blank" target="_blank" >Form of BD. Govt</a> </p>
+                        
+                        
+                    </div>
+                 </div>   
+                 <!-- part item  -->
+                 <div class="w-full md:w-[48%] lg:w-[33%] sm:mt-14 mt-5 max-w-350 mx-auto px-3.5  md:mx-0 sm:px-0 sm:max-w-480">
+                  <h1 class="font-cv font-bold text-white text-4xl max-w-350 mx-auto  sm:mx-0 sm:px-0 sm:max-w-480">School Map</h1>
+                  
+                  <div class="mt-14 rounded-lg min-w-300 ">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.1818591058736!2d90.47316527605727!3d23.705198890508928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70dace7362f%3A0xe010caddc5a9532e!2z4Ka44Ka-4Kau4Ka44KeB4KayIOCmueCmlSDgppbgpr7gpqgg4Ka44KeN4KaV4KeB4KayIOCmj-CmqOCnjeCmoSDgppXgprLgp4fgppwgKOCmuOCnjeCmleCngeCmsiDgpq3gpqzgpqgp!5e0!3m2!1sbn!2sbd!4v1695060015209!5m2!1sbn!2sbd"   height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-md"></iframe>
+                  </div>
+                 </div>
+                  <!-- part item  -->
+              </div>
+         </div>
+         <!-- ended part -->
+         <div class=" max-w-container mx-auto ">
+          <h1 class="text-center font-dm font-normal text-xl text-white mt-5 px-5 sm:px-0">Developed By Tanvir It Solutions Ltd. © 2023</h1>
+          <h1 class="text-center font-dm font-normal text-xl text-white mt-5 px-5 sm:px-0">HelpLine : +88 019-23982877</h1>
+         </div>
+         <!-- ended part -->
+       </section>
+        <!-- =============================
+            Footer Area Start  end
+        ===============================-->
+
+
+       
+
+       <!-- Initialize Swiper -->
+      
+        
+       
+       <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="./js/teacher.js"></script>
+
+
+</body>
+</html>
